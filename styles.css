@@ -1,0 +1,62 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#game-header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+
+#game-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+/* Answer Form */
+#answer-form input {
+    flex: 1;
+}
+
+#submit-answer {
+    border-radius: 5px;
+}
+
+.team-controls button {
+    width: 100px;
+}
+
+/* Results */
+#results {
+    background-color: #e0f7fa;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.score-table {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation */
+.nav-link {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+/* Timer */
+#timer {
+    width: 100%;
+}
+
+#countdown {
+    font-size: 20px;
+    color: red;
+}
